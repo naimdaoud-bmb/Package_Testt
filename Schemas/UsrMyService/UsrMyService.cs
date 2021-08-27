@@ -17,7 +17,7 @@ namespace Terrasoft.Configuration.UsrMyService
         [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
         ResponseFormat = WebMessageFormat.Json)]
         public string SomeMethod() {
-          	return "My Answer message - OK - internal!";
+          	return "My Answer message - Test To Miled Test!";
         }
     }
 }
