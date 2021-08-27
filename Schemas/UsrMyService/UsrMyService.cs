@@ -18,6 +18,7 @@ namespace Terrasoft.Configuration.UsrMyService
         ResponseFormat = WebMessageFormat.Json)]
         public string SomeMethod() {
           	return "My Answer message - Testtt To Miloo Test!";
+		//From Naim add this row to commit 
         }
     }
 }
