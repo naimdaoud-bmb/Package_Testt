@@ -6,7 +6,7 @@ namespace Terrasoft.Configuration.UsrMyService
 	using System.ServiceModel.Web;
 	using Terrasoft.Core;
 	using Terrasoft.Web.Common;
-	
+	e
 
     [ServiceContract]
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
@@ -17,7 +17,7 @@ namespace Terrasoft.Configuration.UsrMyService
         [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
         ResponseFormat = WebMessageFormat.Json)]
         public string SomeMethod() {
-          	return "My Answer message - Test To Miled Test!";
+          	return "My Answer message - Testtt To Miloo Test!";
         }
     }
 }
